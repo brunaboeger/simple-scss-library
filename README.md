@@ -1,6 +1,6 @@
 # Simple SCSS Library
 
-Uma biblioteca CSS simples e leve baseada em SCSS.
+Uma biblioteca CSS simples e leve baseada em SCSS. Parecida com Tailwind, porém bem mais minimalista.
 
 ## Instalação
 

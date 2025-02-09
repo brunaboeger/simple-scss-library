@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: center;
 }
+/* nada aqui */
 
 .bg-blue-100 {
   background-color: var(--blue-100);
@@ -77,7 +78,8 @@
 }
 
 .bg-banner-texture {
-  background-image: url("/images/textures/banner-texture-1.svg"), linear-gradient(180deg, var(--orange-200), var(--orange-400));
+  background-image: url("/images/textures/banner-texture-1.svg"),
+    linear-gradient(180deg, var(--orange-200), var(--orange-400));
   background-position: center;
   background-repeat: no-repeat, no-repeat;
   background-blend-mode: screen;
@@ -86,7 +88,12 @@
   opacity: 20%;
 }
 
-.border-gray-100, .border-gray-600, .border-blue-200, .border-orange-200, .border-orange-300, .border-orange-400 {
+.border-gray-100,
+.border-gray-600,
+.border-blue-200,
+.border-orange-200,
+.border-orange-300,
+.border-orange-400 {
   border-width: var(--border-width);
   border-style: var(--border-style);
 }
@@ -792,7 +799,12 @@
 .grid-template-areas {
   display: grid;
 }
-.grid-template-columns-12, .grid-template-columns-6, .grid-template-columns-4, .grid-template-columns-3, .grid-template-columns-2, .grid-template-columns-1 {
+.grid-template-columns-12,
+.grid-template-columns-6,
+.grid-template-columns-4,
+.grid-template-columns-3,
+.grid-template-columns-2,
+.grid-template-columns-1 {
   display: grid;
 }
 .grid-template-columns-1 {
@@ -900,37 +912,41 @@
 
 .masonry {
   -moz-column-count: 2;
-       column-count: 2;
+  column-count: 2;
   -moz-column-gap: 1.5rem;
-       column-gap: 1.5rem;
+  column-gap: 1.5rem;
 }
 .masonry-column-2 {
   -moz-column-count: 2;
-       column-count: 2;
+  column-count: 2;
 }
 .masonry-column-3 {
   -moz-column-count: 3;
-       column-count: 3;
+  column-count: 3;
 }
 .masonry-column-4 {
   -moz-column-count: 4;
-       column-count: 4;
+  column-count: 4;
 }
 .masonry-item {
   -moz-column-break-inside: avoid;
-       break-inside: avoid;
+  break-inside: avoid;
   margin-bottom: 1.5rem;
 }
 @media (min-width: 300px) and (max-width: 668px) {
-  .masonry-column-2, .masonry-column-3, .masonry-column-4 {
+  .masonry-column-2,
+  .masonry-column-3,
+  .masonry-column-4 {
     -moz-column-count: 1;
-         column-count: 1;
+    column-count: 1;
   }
 }
 @media (min-width: 669px) and (max-width: 1024px) {
-  .masonry-column-2, .masonry-column-3, .masonry-column-4 {
+  .masonry-column-2,
+  .masonry-column-3,
+  .masonry-column-4 {
     -moz-column-count: 2;
-         column-count: 2;
+    column-count: 2;
   }
 }
 
@@ -1110,7 +1126,9 @@ button .text {
   width: 50%;
 }
 
-.hover-translateY-1, .hover-translateY-2, .hover-translateY-3 {
+.hover-translateY-1,
+.hover-translateY-2,
+.hover-translateY-3 {
   transition: transform var(--transition-speed) ease-in-out;
 }
 .hover-translateY-1:hover {
@@ -1124,7 +1142,9 @@ button .text {
 }
 
 @media (max-width: 767px) {
-  .mobile\:hover-translateY-1, .mobile\:hover-translateY-2, .mobile\:hover-translateY-3 {
+  .mobile\:hover-translateY-1,
+  .mobile\:hover-translateY-2,
+  .mobile\:hover-translateY-3 {
     transition: transform var(--transition-speed) ease-in-out;
   }
   .mobile\:hover-translateY-1:hover {
@@ -1176,11 +1196,11 @@ button .text {
 
 .object-cover {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .object-contain {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .position-relative {
@@ -1518,19 +1538,19 @@ button {
 }
 .decoration-underline {
   -webkit-text-decoration: underline var(--primary);
-          text-decoration: underline var(--primary);
+  text-decoration: underline var(--primary);
 }
 .decoration-wavy {
   -webkit-text-decoration: underline wavy var(--primary);
-          text-decoration: underline wavy var(--primary);
+  text-decoration: underline wavy var(--primary);
 }
 .decoration-dotted {
   -webkit-text-decoration: underline dotted var(--primary);
-          text-decoration: underline dotted var(--primary);
+  text-decoration: underline dotted var(--primary);
 }
 .decoration-blink {
   -webkit-text-decoration: blink var(--primary);
-          text-decoration: blink var(--primary);
+  text-decoration: blink var(--primary);
 }
 
 .cursor-pointer {
