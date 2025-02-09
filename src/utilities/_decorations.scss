@@ -1,0 +1,26 @@
+.decoration {
+  &-none {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  &-underline {
+    text-decoration: underline var(--primary);
+  }
+
+  &-wavy {
+    text-decoration: underline wavy var(--primary);
+  }
+
+  &-dotted {
+    text-decoration: underline dotted var(--primary);
+  }
+
+  &-blink {
+    text-decoration: blink var(--primary);
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
