@@ -3,4 +3,3 @@ module.exports = {
     require("autoprefixer"), // Adiciona prefixos para compatibilidade
   ],
 };
-// nada aqui

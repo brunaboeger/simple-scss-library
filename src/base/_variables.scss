@@ -1,0 +1,37 @@
+$spacing-1: 0.25rem; // 4px
+$spacing-2: 0.5rem; // 8px
+$spacing-3: 0.75rem; // 12px
+$spacing-4: 1rem; // 16px
+$spacing-5: 1.5rem; // 24px
+$spacing-6: 2rem; // 32px
+$spacing-7: 2.5rem; // 40px
+$spacing-8: 3rem; // 48px
+
+$radius-1: 0.25rem;
+$radius-2: 0.5rem;
+$radius-3: 1rem; // default
+$radius-4: 1.5rem;
+$radius-5: 2rem;
+$radius-6: 2.5rem;
+$radius-7: 3rem;
+$radius-8: 3.5rem;
+
+/*
+  Breakpoints
+  xs -> extra small devices -> max-width 480px
+
+  sm -> small devices       -> max-width 767px
+  md -> medium devices      -> min-width 768px
+  lg -> large devices       -> min-width 1025px 
+
+  320px — 480px: dispositivos móveis
+  481px — 768px: iPads, tablets
+  769px — 1024px: telas pequenas, laptops
+  1025px — 1200px: desktops, telas grandes
+  1201px e acima —  telas muito grandes, TVs
+*/
+
+$mobile: "max-width: 767px";
+$tablet: "min-width: 768px";
+$tablet-only: "(min-width: 768px) and (max-width: 1024px)";
+$desktop: "min-width: 1025px";

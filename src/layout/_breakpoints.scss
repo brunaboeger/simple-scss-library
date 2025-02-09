@@ -1,22 +1,4 @@
-/*
-  Breakpoints
-  xs -> extra small devices -> max-width 480px
-
-  sm -> small devices       -> max-width 767px
-  md -> medium devices      -> min-width 768px
-  lg -> large devices       -> min-width 1025px 
-
-  320px — 480px: dispositivos móveis
-  481px — 768px: iPads, tablets
-  769px — 1024px: telas pequenas, laptops
-  1025px — 1200px: desktops, telas grandes
-  1201px e acima —  telas muito grandes, TVs
-*/
-// nada aqui
-$mobile: "max-width: 767px";
-$tablet: "min-width: 768px";
-$tablet-only: "(min-width: 768px) and (max-width: 1024px)";
-$desktop: "min-width: 1025px";
+@use "../base/variables" as *;
 
 // Only small devices
 

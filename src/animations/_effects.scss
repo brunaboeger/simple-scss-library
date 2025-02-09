@@ -1,5 +1,4 @@
-@use "./media-queries" as *;
-// nada aqui
+@use "../base/variables" as *;
 
 .hover-bg-1 {
   transition: background-color var(--transition-speed) ease-in-out;

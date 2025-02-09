@@ -1,8 +1,8 @@
 {
   "name": "simple-scss-library",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A simples CSS library.",
-  "main": "dist/styles.css",
+  "main": "dist/main.css",
   "scripts": {
     "build": "sass src/main.scss dist/main.css && postcss dist/main.css -o dist/main.css",
     "watch": "sass --watch src/main.scss dist/main.css",
